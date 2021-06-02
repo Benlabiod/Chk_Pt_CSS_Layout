@@ -463,8 +463,16 @@ option {
 }
 
 .main-footer {
-	height: 50px;
+	height: 100px;
 	width: 100%;
 	display: flex;
+	justify-content: center;
 	text-align: center;
+}
+
+.footerPosition {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
 }
